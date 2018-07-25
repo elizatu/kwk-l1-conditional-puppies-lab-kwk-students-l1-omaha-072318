@@ -39,6 +39,7 @@ end
 def new_animal(number_of_puppies, number_of_cats)
   if number_of_puppies == 0 || number_of_cats == 0
   "Good job!"
-elsif number_of_cats >= 1 || number_of_puppies >= 1
+else number_of_cats >= 1 || number_of_puppies >= 1
   "Slow down"
+end
 end
